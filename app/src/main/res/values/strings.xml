@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Final App</string>
+    <string name="title_activity_student_entry">StudentEntryActivity</string>
+    <string name="title_activity_letter_grade">LetterGradeActivity</string>
+    <string name="please_enter_the_student_apos_s_information_and_class_information_and_click_add">Please fill in all fields for the student, and click CONTINUE!</string>
+    <string name="enter_student_id">Enter Student ID</string>
+    <string name="enter_student_apos_s_first_name">Enter Student\'s First Name</string>
+    <string name="enter_student_apos_s_last_name">Enter Student\'s Last Name</string>
+    <string name="enter_the_class_course_id">Enter the Class ID</string>
+    <string name="enter_the_class_course_name">Enter the Class Name</string>
+    <string name="add_student">Continue</string>
+    <string name="click_here_to_view_grades_again">click here to view grades again</string>
+    <string name="view_grades">View Grades</string>
+    <string name="or_click_here_to_go_back_to_main_screen">or click here to go back to main screen</string>
+    <string name="lt_back"><![CDATA[<-BACK]]></string>
+    <string name="enter_a_grade_for">Enter a Grade for........</string>
+    <string name="enter_grade">Enter Grade</string>
+    <string name="submit_grade">submit grade</string>
+    <string name="view_database">View Database</string>
+    <string name="view_current_database">View Current Database</string>
+    <string name="view_final_grades">View Final Grades</string>
+</resources>
