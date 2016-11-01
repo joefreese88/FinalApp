@@ -68,7 +68,8 @@ public class GradeEntryActivity extends AppCompatActivity {
 
                 Intent intent = new Intent(GradeEntryActivity.this, MainActivity.class);
 
-                letterGrade = getGrade(classGrade); // send to getGrade method to return a letter grade
+                int convertGrade = Integer.parseInt(grade.getText().toString());
+                letterGrade = getGrade(convertGrade); // send to getGrade method to return a letter grade
 
                 // check if grade input is valid other wise continue adding to database
                 if ((letterGrade.equals(null)) || (grade.getText().toString().isEmpty())) {
@@ -127,7 +128,7 @@ public class GradeEntryActivity extends AppCompatActivity {
     }
 
     // a function that takes in a number and returns a letter grade based on the percentage
-    public String getGrade(double numberGrade)
+    public String getGrade(int numberGrade)
     {
         String Letter;
         if ((numberGrade >= 0) && (numberGrade < 60))
